@@ -14,6 +14,11 @@ a {
     font-size: 16px;
     font-weight: normal;
 }
+
+a {
+    scroll-behavior:smooth 300ms;
+}
+
 a:hover {
     color: black;
     text-decoration: none;
@@ -82,8 +87,9 @@ h1 {
     padding-top: 10px;
     padding-bottom: 80px;
 }
-
-
+.reasons .reasons1, .reasons .reasons2 {
+    margin: 0 auto;
+}
 .descrip {
     width: 450px;
 }
@@ -120,20 +126,20 @@ h1 {
 
 
 
-
-
-
 /* New Code added below on 9/13/23 */
 
 .steak {
-    max-width: 150px;
-    max-height: 150px;
-    border-radius: 5%;
+    min-width: 250px;
+    max-height: 250px;
+    border-radius: 2%;
+    float: left;
+    margin-right: 35px;
+   
+}
+.steak:hover {
     -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
     box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57);
-    float: left;
-    margin-right: 25px;
-    margin-left: 25px;
+    opacity: 85%;
 }
 
 .gastro {
@@ -145,33 +151,49 @@ h1 {
 }
 
 .artstudio {
-    max-width: 150px;
-    max-height: 150px;
-    border-radius: 5%;
+    min-width: 350px;
+    max-height: 350px;
+    border-radius: 2%;
+  
+}
+.artstudio:hover {
     -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
     box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57);
-    float: left;
-    margin-right: 25px;
-    margin-left: 25px;
+    opacity: 85%;
 }
 
 .reasons1 {   
-    width: 400px;
-    border: solid 10px black;
-    padding-top: 20px;
-}
-
-.reasons2 {
-    width: 400px;
-    border: solid 10px black;
+    width: 50%;
+    min-height: 250px;
     padding-top: 20px;
     padding-left: 20px;
+    padding-bottom: 210px;
+    font-size: 19px;
+
+}
+.reasons1 span {
+    font-weight: bold;
+    font-size: 20px;  
+}
+
+
+.reasons2 {
+    width: 50%;
+    min-height: 250px;
+    
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 19px;
+}
+.reasons2 span {
+    font-weight: bold;
+    font-size: 20px;  
 }
 
 .reasons2 img {
     float: right;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 200px;
+    max-height: 250px;
     border-radius: 5%;
     -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
     box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57);
@@ -182,9 +204,8 @@ footer {
     background-color: #bee9e8;
 }
 
-img.hover-shadow:hover {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-  }
+
+
 @media (max-width:600px){
     .orlandopic {
         width: 100vw;
@@ -221,15 +242,37 @@ img.hover-shadow:hover {
     object-fit: cover;
     border-radius: 5px;
 }
+.reasons {
+    width: 100%;
+}
+.reasons1 {
+    
+    width: 250px;
+    text-align: center;
+    font-size: 13px;
+}
+.reasons2 {
+   
+    width: 250px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* .reasons {
+    margin: 0 auto;
+    width: 500px;
+}
+
 .reasons1 {
     margin: 0 auto;
-    max-width: 200px;
-    text-align: center;
-    border-style: none;
+    font-size: 13px;
 }
  .reasons1 img {
     margin-bottom: 20px;
+    margin: 0 auto;
  }
+
  .reasons1 span {
     font-weight: bold;
     font-size: 16px;
@@ -246,8 +289,10 @@ img.hover-shadow:hover {
     font-size: 16px;
  }
 .reasons2 img {
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
+*/
+
 footer {
     background-color: #bee9e8;
 }
