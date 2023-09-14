@@ -8,12 +8,23 @@ body {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
-a:link {
+a {
     text-decoration: none;
     color: black;
+    font-size: 16px;
+    font-weight: normal;
 }
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
 h1 {
     text-align: center;
+}
+.header {
+    width: 100%;
+  
 }
 
 .header ul {
@@ -23,14 +34,23 @@ h1 {
     display: flex;
     justify-content: space-around;
     height: 1%;
-    padding: 20px 0 20px 0;
+    padding: 25px 0 20px 0;
 }
 
-.orlandopic {
-    background-image: url("/Images/OrlandoSkyline.JPG");
-    background-size: cover;
+.orlandopic img {
+    max-height: 35vw;
+    width: 100vw;
+
+    /*background-image: url("/Images/OrlandoSky.jpeg");
+    background-size: contain;
+    width: 100%;
     height: 250px;
-}
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center; */
+    
+    
+  }
 
 .gallery img {
     width: 250px;
@@ -52,13 +72,13 @@ h1 {
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    
 }
 
 .reasons {
     background-color: #bee9e8;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 80px;
 }
@@ -75,17 +95,18 @@ h1 {
 }
 
 .socials {
-    text-align: center;
-}
-
-.follow {
-    margin-top: 50px;
-    margin-bottom: 50px;
+   margin: 0 auto;
+    border: solid 1px black;
+    max-width: 850px;
 }
 
 .logo {
-    width: 75px;
+    min-width: 100px;
+    max-height: 100px;
+    margin-top: 90px;
 }
+
+
 
 .social-icons {
     display: flex;
@@ -93,29 +114,15 @@ h1 {
     justify-content: space-around;
     padding-bottom: 100px;
 }
-.footer {
-    
-    padding-left: 15px;
-    
+.socials h2 {
+    text-align: center;
 }
 
-.footer-items {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
- 
-}
 
-.newsletter, .email {
-    width: 35px;
-    height: 35px;
-}
 
-.created {
-    position: absolute; 
-    left: 450px;
-    top: 1725px;
-}
+
+
+
 /* New Code added below on 9/13/23 */
 
 .steak {
@@ -148,10 +155,6 @@ h1 {
     margin-left: 25px;
 }
 
-.reasons {
-    transform: translate(-50%, -50%;)
-   }
-
 .reasons1 {   
     width: 400px;
     border: solid 10px black;
@@ -175,7 +178,9 @@ h1 {
     
 }   
 
-
+footer {
+    background-color: #bee9e8;
+}
 
 img.hover-shadow:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
@@ -183,14 +188,14 @@ img.hover-shadow:hover {
 @media (max-width:600px){
     .orlandopic {
         width: 100vw;
-        height: 150px;
+        min-height: 350px;
         object-fit: cover;
         z-index: 9;
     }
     .header {
         position: fixed;
         top: 0;
-        border: 5px solid black;
+        
         background-color: #fef9ef;
         height: 210px;
     }
@@ -243,6 +248,29 @@ img.hover-shadow:hover {
 .reasons2 img {
     margin-bottom: 20px;
 }
-
- }
+footer {
+    background-color: #bee9e8;
 }
+.socials{
+  margin-top: 10px;
+}
+.socials h2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.logo{
+    margin-top: 60px;
+    min-width: 10px;
+    max-height: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-weight: normal;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+ }
