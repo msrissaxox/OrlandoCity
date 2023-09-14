@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+}
+
+.header ul {
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    height: 1%;
+    padding: 20px 0 20px 0;
+}
+
+.orlandopic {
+    background-image: url("/Images/OrlandoSkyline.JPG");
+    background-size: cover;
+    height: 250px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.gallery img:hover {
+    cursor: pointer;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.reasons {
+    background-color: #bee9e8;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+
+.descrip {
+    width: 450px;
+}
+
+.come {
+    text-align: center;
+    margin: 25px 0 0 0;
+    padding-bottom: 55px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.follow {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 75px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.footer {
+    
+    padding-left: 15px;
+    
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+
+.newsletter, .email {
+    width: 35px;
+    height: 35px;
+}
+
+.created {
+    position: absolute; 
+    left: 450px;
+    top: 1725px;
+}
+/* New Code added below on 9/13/23 */
+
+.steak {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 5%;
+    -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
+    box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57);
+    float: left;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.gastro {
+    font-size: .9em;
+}
+
+.Art {
+    font-size: .9em;
+}
+
+.artstudio {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 5%;
+    -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
+    box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57);
+    float: left;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.reasons {
+    transform: translate(-50%, -50%;)
+   }
+
+.reasons1 {   
+    width: 400px;
+    border: solid 10px black;
+    padding-top: 20px;
+}
+
+.reasons2 {
+    width: 400px;
+    border: solid 10px black;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.reasons2 img {
+    float: right;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 5%;
+    -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
+    box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57);
+    
+}   
+
+
+
+img.hover-shadow:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+@media (max-width: 600px){
+    .orlandopic {
+        width: 100vw;
+        height: 150px;
+        object-fit: cover;
+        z-index: 9;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        border: 5px solid black;
+        background-color: #fef9ef;
+        height: 210px;
+    }
+    body {
+        background-color: #fef9ef;
+    }
+.main {
+    margin-top: 240px;
+    background-color: #fef9ef;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.gallery img {
+    width: 76px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.reasons1 {
+    margin: 0 auto;
+    max-width: 200px;
+    text-align: center;
+    border-style: none;
+}
+ .reasons1 img {
+    margin-bottom: 20px;
+ }
+ .reasons1 span {
+    font-weight: bold;
+    font-size: 16px;
+ }
+ .reasons2 {
+    margin: 0 auto;
+    max-width: 200px;
+    text-align: center;
+    border-style: none;
+    margin-bottom: -15px;
+ }
+ .reasons2 span {
+    font-weight: bold;
+    font-size: 16px;
+ }
+.reasons2 img {
+    margin-bottom: 20px;
+}
+
+ }
+}
