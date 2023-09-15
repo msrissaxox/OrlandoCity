@@ -28,7 +28,7 @@ h1 {
     text-align: center;
 }
 .header {
-    width: 100%;
+    width: 100vw;
   
 }
 
@@ -44,7 +44,7 @@ h1 {
 
 .orlandopic img {
     max-height: 35vw;
-    width: 100vw;
+    width: 100%;
 
     /*background-image: url("/Images/OrlandoSky.jpeg");
     background-size: contain;
@@ -102,7 +102,6 @@ h1 {
 
 .socials {
    margin: 0 auto;
-    border: solid 1px black;
     max-width: 850px;
 }
 
@@ -123,10 +122,12 @@ h1 {
 .socials h2 {
     text-align: center;
 }
+.newsletter,.email {
+    max-width: 50px;
+    min-height: 50px;
 
+}
 
-
-/* New Code added below on 9/13/23 */
 
 .steak {
     min-width: 250px;
@@ -145,7 +146,7 @@ h1 {
 
 .artstudio {
     min-width: 100px;
-    max-height: 210px;
+    max-height: 220px;
     border-radius: 2%;
     margin-left: 40px;
     -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
@@ -190,6 +191,7 @@ h1 {
 
 footer {
     background-color: #bee9e8;
+    margin-bottom: 0;
 }
 
 .hover-shadow:hover {
