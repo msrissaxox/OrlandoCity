@@ -188,14 +188,37 @@ h1 {
     font-size: 20px;  
 }
 
-
+/*
 footer {
     background-color: #bee9e8;
-    margin-bottom: 0;
-}
+    margin-bottom: 0; */
+
 
 .hover-shadow:hover {
     box-shadow: 3px 3px 4px 0px rgba(179,163,152,0.94);
+}
+
+.footer {
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    background-color: #bee9e8;
+    border: solid 1px black;
+    height: 100%;
+}
+.footer-items {
+    display: block;
+    float: left;
+    
+}
+
+
+.footer-items.email {
+    margin-left: 40px;
+}
+
+.created {
+    float: right;
 }
 
 @media (max-width:600px){
@@ -285,8 +308,12 @@ footer {
 }
 */
 
-footer {
+
+
+/*  footer {
     background-color: #bee9e8;
+    */
+
 }
 .socials{
   margin-top: 10px;
