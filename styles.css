@@ -11,8 +11,11 @@ body {
 a {
     text-decoration: none;
     color: black;
-    font-size: 16px;
     font-weight: normal;
+}
+
+.header li a {
+    font-size: 17px;
 }
 
 a {
@@ -34,7 +37,6 @@ h1 {
 
 .header ul {
     list-style: none;
-    font-size: 12px;
     font-weight: bold;
     display: flex;
     justify-content: space-around;
@@ -129,13 +131,14 @@ h1 {
 }
 
 
-.steak {
+ .steak {
     min-width: 250px;
     max-height: 250px;
     border-radius: 2%;
-    float: left;
+   float: left;
     margin-right: 35px;
    
+
 }
 .steak:hover {
     -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
@@ -161,13 +164,13 @@ h1 {
 }
 
 .reasons1 {   
-    width: 50%;
+    width: 75%;
     min-height: 250px;
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 210px;
     font-size: .95em;
-
+    border: solid 1px black;
 }
 .reasons1 span {
     font-weight: bold;
@@ -176,18 +179,23 @@ h1 {
 
 
 .reasons2 {
-    width: 50%;
+    width: 75%;
     min-height: 250px;
-    
     padding-top: 20px;
+    padding-right: 20px;
     padding-left: 20px;
+
+    padding-bottom: 150px;
     font-size: .95em;
+    border: solid 1px black;
 }
 .reasons2 span {
     font-weight: bold;
     font-size: 20px;  
 }
-
+#info, #todo, #follow {
+    font-size: 30px;
+}
 /*
 footer {
     background-color: #bee9e8;
