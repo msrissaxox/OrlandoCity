@@ -40,7 +40,7 @@ h1 {
     font-weight: bold;
     display: flex;
     justify-content: space-around;
-    height: 1%;
+    flex-basis: 10px;  
     padding: 25px 0 20px 0;
 }
 
@@ -67,6 +67,7 @@ h1 {
 }
 .gallery img:hover {
     cursor: pointer;
+    opacity: 85%;
 }
 .gallery {
     display: flex;
@@ -123,11 +124,6 @@ h1 {
 }
 .socials h2 {
     text-align: center;
-}
-.newsletter,.email {
-    max-width: 50px;
-    min-height: 50px;
-
 }
 
 
@@ -206,7 +202,7 @@ footer {
     box-shadow: 3px 3px 4px 0px rgba(179,163,152,0.94);
 }
 
-.footer {
+/*.footer {
     margin-left: 50px;
     margin-right: 50px;
     
@@ -221,15 +217,73 @@ footer {
 }
 
 
-.footer-items.email {
+/* .footer-items.email {
     margin-left: 40px;
+}*/
+
+
+/*.flexbox {
+    display: flex;
+    flex-direction: row;
+    max-height: 100px;
+
+}*/
+
+
+
+
+
+/*.footer-notes {
+    font-size: 10px;
 }
 
-.created {
+
+.flexy,.right {
+    display: inline-block;
+    border: solid 1px;
+
+}
+.right {
     float: right;
-}
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    bottom: 0;
+  
+  
 
-@media (max-width:600px){
+}*/
+
+.left, .created {
+    display: inline-block;
+    font-size: 13px;
+  }
+  
+  span, p {
+    display: inline;
+    vertical-align: middle;
+  }
+  p {
+    margin-left: 10px;
+  }
+  .created {
+    float: right;
+    bottom: 0;
+    border: solid red 1px;
+    max-height: 
+  }
+
+  footer {
+     background-color: #bee9e8;
+    
+  }
+
+/*   Media Query Code Below   */
+
+@media screen and (max-width: 600px), (max-height: 500px) 
+
+{
     .orlandopic {
         width: 100vw;
         min-height: 350px;
