@@ -192,74 +192,22 @@ h1 {
 #info, #todo, #follow {
     font-size: 30px;
 }
-/*
-footer {
-    background-color: #bee9e8;
-    margin-bottom: 0; */
+
 
 
 .hover-shadow:hover {
     box-shadow: 3px 3px 4px 0px rgba(179,163,152,0.94);
 }
 
-/*.footer {
-    margin-left: 50px;
-    margin-right: 50px;
-    
-    background-color: #bee9e8;
-    border: solid 1px black;
-    height: 100%;
-}
-.footer-items {
-    display: block;
-    float: left;
-    
-}
-
-
-/* .footer-items.email {
-    margin-left: 40px;
-}*/
-
-
-/*.flexbox {
-    display: flex;
-    flex-direction: row;
-    max-height: 100px;
-
-}*/
-
-
-
-
-
-/*.footer-notes {
-    font-size: 10px;
-}
-
-
-.flexy,.right {
-    display: inline-block;
-    border: solid 1px;
-
-}
-.right {
-    float: right;
-    border: solid 1px black;
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
-    bottom: 0;
-  
-  
-
-}*/
-
 .left, .created {
     display: inline-block;
     font-size: 13px;
   }
-  
+
+  a p {
+    font-size: 13px;
+  }
+
   span, p {
     display: inline;
     vertical-align: middle;
@@ -270,7 +218,6 @@ footer {
   
   .created {
     float: right;
-
     text-wrap: wrap;
     min-height: 60px;
     min-width: 200px;
@@ -345,45 +292,7 @@ footer {
 }
 
 
-/* .reasons {
-    margin: 0 auto;
-    width: 500px;
-}
 
-.reasons1 {
-    margin: 0 auto;
-    font-size: 13px;
-}
- .reasons1 img {
-    margin-bottom: 20px;
-    margin: 0 auto;
- }
-
- .reasons1 span {
-    font-weight: bold;
-    font-size: 16px;
- }
- .reasons2 {
-    margin: 0 auto;
-    max-width: 200px;
-    text-align: center;
-    border-style: none;
-    margin-bottom: -15px;
- }
- .reasons2 span {
-    font-weight: bold;
-    font-size: 16px;
- }
-.reasons2 img {
-    margin-bottom: 20px; 
-}
-*/
-
-
-
-/*  footer {
-    background-color: #bee9e8;
-    */
 
 
 .socials{
