@@ -2,12 +2,11 @@
     box-sizing: border-box;
 }
 
-
 body {
-    
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -31,8 +30,7 @@ h1 {
     text-align: center;
 }
 .header {
-    width: 100vw;
-  
+    width: 100vw; 
 }
 
 .header ul {
@@ -55,8 +53,6 @@ h1 {
     background-repeat: no-repeat;
     object-fit: cover;
     object-position: center; */
-    
-    
   }
 
 .gallery img {
@@ -65,10 +61,12 @@ h1 {
     object-fit: cover;
     border-radius: 5px;
 }
+
 .gallery img:hover {
     cursor: pointer;
     opacity: 85%;
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -79,8 +77,7 @@ h1 {
     margin-bottom: 40px;
     width: 75vw;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto; 
 }
 
 .reasons {
@@ -90,9 +87,11 @@ h1 {
     padding-top: 10px;
     padding-bottom: 80px;
 }
+
 .reasons .reasons1, .reasons .reasons2 {
     margin: 0 auto;
 }
+
 .descrip {
     width: 450px;
 }
@@ -114,18 +113,16 @@ h1 {
     margin-top: 90px;
 }
 
-
-
 .social-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 100px;
 }
+
 .socials h2 {
     text-align: center;
 }
-
 
  .steak {
     min-width: 250px;
@@ -133,15 +130,13 @@ h1 {
     border-radius: 2%;
    float: left;
     margin-right: 35px;
-   
-
 }
+
 .steak:hover {
     -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
     box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57);
     opacity: 85%;
 }
-
 
 .artstudio {
     min-width: 100px;
@@ -151,8 +146,8 @@ h1 {
     -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
     box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57);
     float: right;
-
 }
+
 .artstudio:hover {
     -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
     box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57);
@@ -168,11 +163,11 @@ h1 {
     font-size: .95em;
     border: solid 1px black;
 }
+
 .reasons1 span {
     font-weight: bold;
     font-size: 22px;  
 }
-
 
 .reasons2 {
     width: 75%;
@@ -180,20 +175,19 @@ h1 {
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
-
     padding-bottom: 150px;
     font-size: .95em;
     border: solid 1px black;
 }
+
 .reasons2 span {
     font-weight: bold;
     font-size: 20px;  
 }
+
 #info, #todo, #follow {
     font-size: 30px;
 }
-
-
 
 .hover-shadow:hover {
     box-shadow: 3px 3px 4px 0px rgba(179,163,152,0.94);
@@ -212,6 +206,7 @@ h1 {
     display: inline;
     vertical-align: middle;
   }
+
   p {
     margin-left: 10px;
   }
@@ -225,16 +220,18 @@ h1 {
     flex-direction: column;
     align-items: flex-end;
   }
-.created p {
+
+  .created p {
     margin-top: .4em;
     line-height: 10px;
 }
-  .footer {
-     background-color: #bee9e8;
-     min-height: 60px;
-     padding-top: 30px;
+
+.footer {
+    background-color: #bee9e8;
+    min-height: 60px;
+    padding-top: 30px;
     padding-left: 10px;
-    Padding-right: 10px;
+    padding-right: 10px;
     padding-bottom: 10px;
   }
 
@@ -249,20 +246,23 @@ h1 {
         object-fit: cover;
         z-index: 9;
     }
+
     .header {
         position: fixed;
         top: 0;
-        
         background-color: #fef9ef;
         height: 210px;
     }
+
     body {
         background-color: #fef9ef;
     }
+
 .main {
     margin-top: 240px;
     background-color: #fef9ef;
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -270,52 +270,53 @@ h1 {
     justify-content: center;
     padding-top: 0px;
     padding-bottom: 35px;
-
 }
+
 .gallery img {
     width: 76px;
     height: 100px;
     object-fit: cover;
     border-radius: 5px;
 }
+
 .reasons {
     width: 100%;
 }
-.reasons1 {
-    
-    width: 250px;
-    text-align: center;
-    font-size: 13px;
-}
-.reasons2 {
-   
+
+.reasons1 {    
     width: 250px;
     text-align: center;
     font-size: 13px;
 }
 
-
-
-
+.reasons2 {   
+    width: 250px;
+    text-align: center;
+    font-size: 13px;
+}
 
 .socials{
   margin-top: 10px;
 }
+
 .socials h2 {
     font-size: 15px;
     font-weight: bold;
 }
+
 .logo{
     margin-top: 60px;
     min-width: 10px;
     max-height: 40px;
 }
+
 a {
     text-decoration: none;
     color: black;
     font-size: 11px;
     font-weight: normal;
 }
+
 a:hover {
     color: black;
     text-decoration: none;
