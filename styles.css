@@ -232,7 +232,10 @@ h1 {
   .footer {
      background-color: #bee9e8;
      min-height: 60px;
-    
+     padding-top: 30px;
+    padding-left: 10px;
+    Padding-right: 10px;
+    padding-bottom: 10px;
   }
 
 /*   Media Query Code Below   */
