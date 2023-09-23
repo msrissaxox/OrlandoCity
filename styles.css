@@ -148,7 +148,10 @@ h1 {
 
 .reasons1 {   
     padding-top: 20px;
-    font-size: .95em;   
+    padding-bottom: 20px;
+    font-size: 1.1em;   
+    width: 40%;
+    text-align: center;
 }
 
 .reasons1 span {
@@ -159,7 +162,6 @@ h1 {
 .gastro {
     display: block;
 }
-
 
 .reasons2 {
     width: 75%;
