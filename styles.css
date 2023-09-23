@@ -131,13 +131,12 @@ h1 {
 }
 
 .artstudio {
-    min-width: 100px;
-    max-height: 220px;
-    border-radius: 2%;
-    margin-left: 40px;
-    -webkit-box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57); 
-    box-shadow: 5px 2px 4px 0px rgba(31,14,9,0.57);
-    float: right;
+    min-width: 150px;
+    max-width: 270px;
+    max-height: 190px;
+    min-height: 176px;
+    border-radius: 1%;
+
 }
 
 .artstudio:hover {
@@ -164,13 +163,11 @@ h1 {
 }
 
 .reasons2 {
-    width: 40%;
+    width: 45%;
     padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
     padding-bottom:20px;
     font-size: 1.1em;
-    border: solid 1px black;
+    text-align: center;
 }
 
 .reasons2 span {
@@ -178,8 +175,10 @@ h1 {
     font-size: 20px;  
 }
 
-.art {
+.artstudio, .art {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #info, #todo, #follow {
@@ -202,10 +201,6 @@ h1 {
   span, p {
     display: inline;
     vertical-align: middle;
-  }
-
-  p {
-    margin-left: 10px;
   }
   
   .created {
