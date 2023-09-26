@@ -234,7 +234,7 @@ h1 {
     .main {
         margin-top: 250px;
     }
-    
+
     #todo {
         font-size: 25px;
     }
@@ -270,7 +270,6 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center; 
-    
  }
 
  .reasons2 
@@ -280,9 +279,24 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    
  }
 
+ #follow {
+    font-size: 25px;
+    margin-bottom: -20px;
+ }
+
+ .social-icons {
+    max-width: 50px;
+    max-height: 100px;
+    margin: 0 auto; 
+ }
+ .social-icons img {
+max-width: 60px;
+min-width: 50px;
+margin: 70px 10px;
+ }
+ 
 }
     /*
     .orlandopic {
