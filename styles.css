@@ -54,14 +54,6 @@ h1 {
     object-fit: cover;
     border-radius: 5px;
 }
-
-.gallery img:hover {
-    cursor: pointer;
-    opacity: 85%;
-}
-#todo {
-    padding-top: 50px;
-}
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -75,6 +67,11 @@ h1 {
     margin-right: auto; 
 }
 
+.gallery img:hover {
+    cursor: pointer;
+    opacity: 85%;
+}
+
 .reasons {
     background-color: #bee9e8;
     padding-top: 50px;
@@ -85,14 +82,8 @@ h1 {
     margin: 0 auto;
 }
 
-.descrip {
-    width: 450px;
-}
-
-.come {
-    text-align: center;
-    margin: 25px 0 0 0;
-    padding-bottom: 55px;
+#todo {
+    padding-top: 50px;
 }
 
 .socials {
@@ -221,17 +212,79 @@ h1 {
 .footer {
     background-color: #bee9e8;
     min-height: 60px;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding: 30px 10px 10px 10px;
   }
 
 /*   Media Query Code Below   */
 
 @media screen and (max-width: 600px), (max-height: 500px) 
 
-{
+{ 
+    body {
+        background-color: white;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        background-color: white;
+        z-index: 1;
+    }
+
+    .main {
+        margin-top: 250px;
+    }
+    
+    #todo {
+        font-size: 25px;
+    }
+
+    .gallery {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .gallery img {
+    max-width: 80px;
+    max-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    #info {
+        font-size: 25px;
+    }
+
+    .reasons {
+        margin-top: -10px;
+        font-size: 12px;
+        width: 100%;
+   
+    }
+    .reasons1
+ {
+        width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    
+ }
+
+ .reasons2 
+ {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+ }
+
+}
+    /*
     .orlandopic {
         width: 100vw;
         min-height: 350px;
@@ -314,3 +367,4 @@ a:hover {
     text-decoration: none;
 }
  }
+ */
