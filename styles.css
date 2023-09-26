@@ -296,6 +296,12 @@ max-width: 60px;
 min-width: 50px;
 margin: 70px 10px;
  }
+ .footer {
+    display: flex;
+ }
+ .newsletter p, .contact p, .created  {
+    font-size: 9px;
+ }
  
 }
     /*
